@@ -25,7 +25,7 @@ proc begin_game {answer} {
 		} elseif {$userInput < $answer} {
 			puts "Too Low !!!\n"
 		} elseif {$userInput > $answer} {
-					puts "Too high !!!\n"
+			puts "Too high !!!\n"
 		}
 		
 	}
